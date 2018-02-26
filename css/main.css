@@ -1,0 +1,146 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 19px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 70px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 265px 0;
+    color: white;
+    margin: -2px 0 0 0;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 42px;
+    letter-spacing: 0;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    height: 155px;
+    color: black;
+}
+
+p {
+    padding-top: 20px;
+}
+
+.menu-bar {
+    font-size: 12px;
+    padding: 15px;
+    margin: 0;
+}
+.sub-head {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 0;
+    text-transform: lowercase;
+    margin: auto;
+    text-align: center;
+}
+
+.title-container {
+    color: black;
+    padding-top: 20px;
+    margin: 0;
+}
+
+
+.banner {
+    background: url("../img/Splash-Image-2.png") no-repeat, #6CB35D;
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}
+
+.height-full {
+    height: 705px;
+}
+
+.article {
+    background: #6CB35D;
+    padding-bottom: 100px;
+}
+
+.palmier {
+    margin: auto;
+    padding: 15px 0;
+}
+
+.how-we-met, .the-proposal {
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.right-border {
+    border-right: 2px solid white;
+}
+
+.bottom-border {
+    border-bottom: 0;
+}
+
+
+@media only screen and (max-width: 762px) {
+    .menu-bar {
+        display: none;
+    }
+    .header-title {
+        font-size: 15px;
+    }
+    header {
+        height: 50px;
+    }
+    h1 {
+        font-size: 19px;
+    }
+
+
+    h2 {
+        font-size: 20px;
+    }
+    .sub-head {
+        font-size: 14px;
+    }
+    .how-we-met {
+        padding: 50px 0 0 0;
+    }
+    .the-proposal {
+        padding: 25px 0 0 0;
+    }
+    h1 {
+        padding: 100px 0;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .bottom-border {
+        border-bottom: 1px solid white;
+    }
+    .right-border {
+        border: 0;
+    }
+    .palmier {
+        display: none;
+    }
+    .article {
+        padding-bottom: 50px;
+    }
+
+}
+
